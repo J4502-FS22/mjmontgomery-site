@@ -1,4 +1,4 @@
-/*font-family: 'EB Garamond', Times, serif;
+/*font-family: 'Bitter', Times, serif;
 font-family: 'Lato', Helvetica, sans-serif;
 font-family: 'Roboto Mono', Consola, monospace;*/
 html {
@@ -12,7 +12,7 @@ font-size: 20px;
     margin: auto;
     color: #FFFFFF;
     background:#644E7E;
-    font-family:'EB Garamond', Times, serif;
+    font-family:'Bitter', Times, serif;
   }
 }
 
@@ -21,7 +21,7 @@ body{
   margin: auto;
   color: #FFFFFF;
   background:#644E7E;
-  font-family:'EB Garamond', Times, serif;
+  font-family:'Bitter', Times, serif;
 }
 
 h1{
@@ -81,7 +81,7 @@ ol li {
 }
 
 ul li{
-  font-family: 'EB Garamond', Times, serif;
+  font-family: 'Bitter', Times, serif;
   font-style: italic;
 }
 
