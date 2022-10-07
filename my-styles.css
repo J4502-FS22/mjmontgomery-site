@@ -1,16 +1,91 @@
-/*font-family: 'Lato', sans-serif; font-family:
- 'EB Garamond', serif;*/
+/*font-family: 'EB Garamond', Times, serif;
+font-family: 'Lato', Helvetica, sans-serif;
+font-family: 'Roboto Mono', Consola, monospace;*/
 html {
 font=size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 400px
+    margin: auto;
+    color: #FFFFFF;
+    background:#644E7E;
+    font-family:'EB Garamond', Times, serif;
+  }
 }
 
 body{
   width:700px;
   margin: auto;
-  color: #FFFFFF
-  background:#644E7E
-  font-family:'EB Garamond', serif;
+  color: #FFFFFF;
+  background:#644E7E;
+  font-family:'EB Garamond', Times, serif;
 }
-h1,h2,h3{
-  font-family: 'Lato', sans-serif;
+
+h1{
+  text-align: center;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-style: normal;
+  font-size:3rem;
+  display: block;
+  background-color: #C8A2C8;
+  color: #644E7E;
+}
+
+h2{
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size:2rem;
+}
+
+h3{
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size:1.5rem;
+}
+
+p{
+  font-weight: lighter;
+}
+
+nav {
+  color: #000000;
+  display: block;
+  background-color: #FFFFFF;
+  padding: auto;
+}
+
+nav a {
+  color:#000000
+}
+
+a{
+  font-weight:bolder;
+  font-style: italic;
+  font-family: 'Roboto Mono', Consola, monospace;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  font-style: normal;
+}
+
+ol li {
+  font-family: 'Lato', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+ul li{
+  font-family: 'EB Garamond', Times, serif;
+  font-style: italic;
+}
+
+footer {
+ text-align: center;
+ font-family: 'Lato', Helvetica, sans-serif;
+ display:block;
+ background:#C8A2C8;
 }
