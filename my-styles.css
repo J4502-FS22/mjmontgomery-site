@@ -1,3 +1,4 @@
+/*error in validator does not exist. No < to be found. Also to note that parse errors are in error.*/
 /*font-family: 'Bitter', Times, serif;
 font-family: 'Lato', Helvetica, sans-serif;
 font-family: 'Roboto Mono', Consola, monospace;*/
@@ -5,22 +6,54 @@ html {
 font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 555px; max-width:799px) {
   body {
     font-size:15px;
-    width: 400px;
+    width: 500px;
     margin: auto;
-    color: #FFFFFF;
-    background:#644E7E;
-    font-family:'Bitter', Times, serif;
   }
+  .image-holder {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-holder {
+    width: 60%;
+  }
+  nav li{
+    width: 50%;}
+}
+
+@media (min-width:800px; max-width:1000px) {
+  body {
+    font-size:20px;
+    width: 700px;
+    margin: auto;
+  }
+  .image-holder {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-holder {
+    width: 400px;}
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  background: #644E7E;
+  border-radius: 1rem;
+  padding:2rem;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 body{
-  width:700px;
+  width:1000px;
   margin: auto;
   color: #FFFFFF;
-  background:#644E7E;
+  background:#FFFFFF;
   font-family:'Bitter', Times, serif;
 }
 
@@ -36,17 +69,17 @@ h1{
 
 h2{
   font-family: 'Lato', Helvetica, sans-serif;
-  font-size:auto;
+  text-align:center;
 }
 
 h3{
   font-family: 'Lato', Helvetica, sans-serif;
-  font-size:auto;
+  text-align:center;
 }
 
 p{
   font-weight: lighter;
-  font-size:auto;
+  font-size:1rem;
   text-align:center;
 }
 
@@ -54,17 +87,35 @@ nav {
   color: #000000;
   display: block;
   background-color: #FFFFFF;
-  padding: auto;
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
-  color:#000000
+  color:#000000;
+  text-align:center;
 }
 
 a{
   font-weight:bolder;
   font-style: italic;
   font-family: 'Roboto Mono', Consola, monospace;
+  color: #000000;
+  text-align: center;
+}
+
+nav li, nav li a {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  background-color: #FFFFFF;
+  padding: .5rem;
+  color: #000000;
 }
 
 ul, ol {
@@ -86,9 +137,39 @@ ul li{
   font-style: italic;
 }
 
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-holder img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.text-holder {
+  border:10px dotted;
+  border-color: #C8A2C8;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px 45px;
+}
+
+a:visited {
+  color: #000000;
+}
+
 footer {
  text-align: center;
  font-family: 'Lato', Helvetica, sans-serif;
  display:block;
- background:#C8A2C8;
-}
+ background: #C8A2C8;
+ color: #644E7E;
+ margin: auto;
+ border-radius: 1rem;}
