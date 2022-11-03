@@ -89,15 +89,7 @@ nav {
   background-color: #FFFFFF;
   padding: 0;
   margin: 0;
-}
-
-nav {
-  color: #E3AD16;
-  background-color: #000000;
-  padding: 0;
-  display: block;
-  margin: 0;
-  border-bottom: 3px solid #FFF;
+  border-bottom: 3px solid #FFF
 }
 
 ul, ol {
