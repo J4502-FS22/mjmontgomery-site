@@ -1,4 +1,4 @@
-/*error in validator does not exist. No < to be found. Also to note that parse errors are in error.*/
+/*error in validator does not exist. No alligator to be found. Also to note that parse errors are in error.*/
 /*font-family: 'Bitter', Times, serif;
 font-family: 'Lato', Helvetica, sans-serif;
 font-family: 'Roboto Mono', Consola, monospace;*/
@@ -8,27 +8,26 @@ font-size: 20px;
 
 body{
   margin: 0px;
-  color: #FFFFFF;
-  background:#FFFFFF;
+  background-color:#FFFFFF;
   font-family:'Bitter', Times, serif;
 }
 
 main {
   width: 100%;
   max-width: 1500px;
-  background: #644E7E;
-  border-radius: 1rem;
-  padding:1rem 2rem;
-  box-sizing: border-box;
-  margin: 1rem auto;
+background: #644E7E;
+border-radius: 1rem;
+padding:1rem 2rem;
+box-sizing: border-box;
+margin: 1rem auto;
 }
 
 nav {
   color: #000000;
   display: block;
   background-color: #C8A2C8;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   border-bottom: 3px solid #FFF;
 }
 
@@ -40,16 +39,19 @@ h1{
   display: block;
   background-color: #C8A2C8;
   color: #644E7E;
+  margin:0;
 }
 
 h2{
   font-family: 'Lato', Helvetica, sans-serif;
   text-align:center;
+  margin:0;
 }
 
 h3{
   font-family: 'Lato', Helvetica, sans-serif;
   text-align:center;
+  margin:0;
 }
 
 p{
@@ -107,44 +109,6 @@ nav li, nav li a {
   color: #000000;
 }
 
-.image-holder img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.location-holder, .media-holder {
-  width: 100%;
-  margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  box-sizing: border-box;
-}
-
-.image-holder img{
-  display: block;
-  margin-left: auto;
-  max-width: 500px;
-  margin-right: auto;
-  width: 100%;
-  padding: 20px;
-  flex-direction: column;
-  gap: 1.2rem;
-  box-sizing: border-box;
-}
-
-.text-holder {
-  border:10px dotted;
-  border-color: #C8A2C8;
-  width:100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 20px 45px;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-
 a:visited {
   color: #000000;
 }
@@ -152,7 +116,7 @@ a:visited {
 address {
   font-style:normal;
 }
-
+/*footer*/
 footer {
  text-align: center;
  font-family: 'Lato', Helvetica, sans-serif;
@@ -160,7 +124,43 @@ footer {
  background: #C8A2C8;
  color: #644E7E;
  margin: auto;
- border-radius: 1rem;}
+ border-radius: 1rem;
+}
+
+/*media*/
+
+ .location-holder, .media-holder {
+   width: 100%;
+   margin: 4rem 0;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   box-sizing: border-box;
+ }
+
+ .image-holder img{
+   display: block;
+   margin-left: auto;
+   max-width: 500px;
+   margin-right: auto;
+   width: 100%;
+   padding: 20px;
+   flex-direction: column;
+   gap: 1.2rem;
+   box-sizing: border-box;
+ }
+
+ .text-holder {
+   border:10px dotted;
+   border-color: #C8A2C8;
+   width:100%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-radius: 20px 45px;
+   flex-direction: column;
+   box-sizing: border-box;
+ }
 
 /*browser 555px wide*/
  @media (min-width: 555px) {
@@ -181,8 +181,9 @@ footer {
    .text-holder {
      width: 60%;
    }
+
    .media-list .text-holder{
-     width:30%;
+     width:60%;
      flex-direction:row;
    }
   nav li{
@@ -194,6 +195,8 @@ footer {
   flex-wrap: wrap;
    }
 }
+
+/*if over 800px*/
 
  @media (min-width:800px) {
    body {
