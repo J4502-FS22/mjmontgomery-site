@@ -6,6 +6,13 @@ html {
 font-size: 20px;
 }
 
+body{
+  margin: 0px;
+  color: #FFFFFF;
+  background:#FFFFFF;
+  font-family:'Bitter', Times, serif;
+}
+
 main {
   width: 100%;
   max-width: 1500px;
@@ -16,11 +23,13 @@ main {
   margin: 1rem auto;
 }
 
-body{
+nav {
+  color: #000000;
+  display: block;
+  background-color: #C8A2C8;
+  padding: 0px;
   margin: 0px;
-  color: #FFFFFF;
-  background:#FFFFFF;
-  font-family:'Bitter', Times, serif;
+  border-bottom: 3px solid #FFF;
 }
 
 h1{
@@ -69,19 +78,6 @@ ol li {
 ul li{
   font-family: 'Bitter', Times, serif;
   font-style: italic;
-}
-
-nav {
-  color: #000000;
-  display: block;
-  background-color: #C8A2C8;
-  padding: 0px;
-  margin: 0px;
-  border-bottom: 3px solid #FFF;
-}
-
-nav a {
-  color:#000000;
 }
 
 nav ul{
@@ -152,6 +148,7 @@ nav li, nav li a {
 a:visited {
   color: #000000;
 }
+
 address {
   font-style:normal;
 }
