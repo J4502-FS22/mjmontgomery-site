@@ -136,7 +136,7 @@ footer {
    gap: 1rem;
    box-sizing: border-box;
  }
- 
+
 .imageholder {
   width:100%;
   padding: 20px;
@@ -170,9 +170,12 @@ footer {
  @media (min-width: 555px) {
    body {
      font-size:15px;
-     width: 500px;
      margin: auto;
    }
+   main {
+     width:500px;
+   }
+
    .media-holder{
      flex-direction:row;
    }
@@ -205,9 +208,12 @@ footer {
  @media (min-width:800px) {
    body {
      font-size:20px;
-     width: 700px;
      margin: auto;
    }
+   main {
+     width:700px;
+   }
+   
    .image-holder {
      width: 400px;
      margin-left: auto;
