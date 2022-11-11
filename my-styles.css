@@ -11,10 +11,11 @@ body{
   background-color:#FFFFFF;
   color:#FFFFFF;
   font-family:'Bitter', Times, serif;
+  width:100%;
 }
 
 main {
-  width: 100%;
+  width: 70%;
   max-width: 1500px;
 background: #644E7E;
 border-radius: 1rem;
@@ -135,17 +136,21 @@ footer {
    gap: 1rem;
    box-sizing: border-box;
  }
+ 
+.imageholder {
+  width:100%;
+  padding: 20px;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+  display:block;
+}
 
  .image-holder img{
-   display: block;
    margin-left: auto;
+   width:100%;
    max-width: 500px;
    margin-right: auto;
-   width: 100%;
-   padding: 20px;
-   flex-direction: column;
-   gap: 1.2rem;
-   box-sizing: border-box;
  }
 
  .text-holder {
@@ -158,6 +163,7 @@ footer {
    border-radius: 20px 45px;
    flex-direction: column;
    box-sizing: border-box;
+   padding: 10px;
  }
 
 /*browser 555px wide*/
