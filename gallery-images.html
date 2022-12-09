@@ -9,6 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,400;0,700;1,500&family=Lato:wght@700&family=Roboto+Mono:wght@200;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="my-styles.css">
+
+  <script type="text/javascript" src="gallery.js" defer></script>
 </head>
 <body>
     <a class="skip-link" href="#content"> Skip to content </a>
@@ -16,7 +18,7 @@
     <ul>
       <li><a href="index.html">Home!</a>
       <li><a href="secondpage.html">The ten best animated movies of all time.</a>
-      <li><a class="active" href="gallery-images.html">You are here.</a>
+      <li><a class="active" href="gallery-image hideThis.html">You are here.</a>
       <li><a href="bestchais.html">My list of favorite chais around the world.</a>
     </ul>
   </nav>
@@ -25,61 +27,67 @@
   <h1>Step-by-Step Guide to Cooking Dinner</h1>
   <p>Sometimes you don't want to eat out. Sometimes the best food is the food you make at home. Here's a visual guide to how I make dinner on a weeknight.</p>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/1.JPG" alt="Ingredients, plates, utensils, and seasonings on a countertop. There is a cutting board with a half-chopped onion on it. A plate has flour next to a plate of raw chicken.">
     <figcaption>
       First, I set out all my ingredients. I chop my onion. I chop my chicken and dredge it in flour. I smash some garlic cloves.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/2.JPG" alt="Flour-coated chicken in a ceramic pan, surrounded by sizzling butter and whole garlic cloves.">
     <figcaption>
       Then, I heat my pan and melt butter in it. I put my chicken in and start cooking.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/3.JPG" alt="A spatula sits next to the pan of chicken. The chicken is now golden-brown. A pot of water sits on another burner, which is on.">
     <figcaption>
       I boil water on the stove in another pan for my pasta. I flip my chicken over once the bottom has gotten brown and crispy.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/4.JPG" alt="The chicken is out of the pan and on a paper towel in the background. Diced onions are in the pan now. The pot of pasta is off the burner and on the back of the stove.">
     <figcaption>
       I take my chicken out once it is crispy all over and toss my onions in with some oil. Once the pasta is boiled, I take my pasta off the heat. I cook my onions until they are fragrant.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/5.JPG" alt="The onions are now a different color because of the cooking process and the seasonings mixed in. The spatula rests against the edge of the pan, leaning on the stovetop.">
     <figcaption>
       Then, I season my onions and cook them until they are softer.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/6.JPG" alt="The pan now has red sauce, tomato paste, and cream in it, unmixed. The spatula sits off to the side. A bottle of lemon juice is nearby.">
     <figcaption>
       Next, I add my red sauce, tomato paste, cream, lemon juice, and other seasonings. I add some pasta water as well. This will all come together to make a creamy tomato pasta sauce.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/7.JPG" alt="The red sauce in the pan is mixed together. The elbow noodles have been mixed in as well.">
     <figcaption>
       Next, I add my pasta into the sauce to get them evenly coated. Now that the pasta part is done, I’m done cooking. I can eat.
     </figcaption>
   </figure>
 
-  <figure class="gallery-image">
+  <figure class="gallery-image hideThis">
     <img src="images/8.JPG" alt="The pasta and the noodles are now mixed together in a white bowl.">
     <figcaption>
       I put all my pasta and my crispy chicken in a bowl together. Time to eat.
     </figcaption>
   </figure>
+
+  <div class="button_holder">
+    <button id="button_previous">Previous</button>
+    <p id="stepper"></p>
+    <button id="button_next">Next</button>
+  </div>
 
 </main>
 <footer>MJ Montgomery, 2022</footer>
